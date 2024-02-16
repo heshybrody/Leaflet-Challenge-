@@ -3,7 +3,7 @@ let myMap = L.map("map", {
     // set center as middle of the US, adjust the zoom
     center: [37.0902, -95.7129],
     zoom: 4
-  });
+  }).setView([37.0902, -95.7129], 4);
 
 // create tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
